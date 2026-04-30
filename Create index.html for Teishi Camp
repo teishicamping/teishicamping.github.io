@@ -76,3 +76,23 @@
       </div>
     </div>
     <p style="text-align
+    </div>
+    <p style="text-align:center; margin: 30px 0; color:#d4380d; font-weight:500;">
+      ※料金は1泊あたり（税込）です。最新情報は必ずお電話でご確認ください。
+    </p>
+  </section>
+
+  <!-- お問い合わせ・予約 -->
+  <section class="section contact">
+    <h2>お問い合わせ・予約</h2>
+    <p>ご予約・お問い合わせは電話でお願いします。</p>
+    <a href="tel:090-6156-7424" class="btn-reserve big">📞 090-6156-7424</a>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2026 手石キャンプ場 All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
