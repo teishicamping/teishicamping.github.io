@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>手石キャンプ場 | 南伊豆・弓ヶ浜高台キャンプ場</title>
+  <meta name="description" content="静岡県南伊豆町・手石にある弓ヶ浜を一望できる高台のキャンプ場。星空・朝日・波音を楽しむ静かなフリーサイト。ペット同伴可。">
+  <title>手石キャンプ場 | 南伊豆・弓ヶ浜を望む高台キャンプ場</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -20,10 +21,10 @@
   </header>
 
   <!-- キャンプ場について -->
-  <section class="section">
+  <section class="section about">
     <h2>手石キャンプ場について</h2>
-    <p>静岡県南伊豆町・手石にある、弓ヶ浜を一望できる高台のキャンプ場です。<br>
-    山・海・川に囲まれ、波音や鳥のさえずり、満天の星空、朝日を楽しめます。</p>
+    <p>静岡県南伊豆町・手石に位置する、富士箱根伊豆国立公園内にある高台のキャンプ場です。<br>
+    弓ヶ浜の美しい海を一望でき、山・海・川に囲まれた自然豊かな環境で、波音や鳥のさえずり、満天の星空、素晴らしい朝日をお楽しみいただけます。</p>
   </section>
 
   <!-- 魅力ポイント -->
@@ -32,34 +33,74 @@
     <div class="grid">
       <div class="card">
         <h3>🌊 弓ヶ浜の絶景</h3>
-        <p>高台から見渡す美しい海と浜辺</p>
+        <p>高台から見渡す美しい海と白い砂浜</p>
       </div>
       <div class="card">
         <h3>🌟 星空と朝日</h3>
-        <p>光が少なく、夜は満天の星空、朝は美しい日の出</p>
+        <p>街の光が少なく、夜は満天の星空、朝は美しい日の出</p>
       </div>
       <div class="card">
         <h3>🐶 ペット同伴OK</h3>
         <p>大切な家族と一緒にキャンプを楽しめます</p>
       </div>
       <div class="card">
-        <h3>🔥 直火可エリアあり</h3>
-        <p>直火が楽しめる場所もあります</p>
+        <h3>🔥 自然を楽しむ</h3>
+        <p>直火エリアあり / フリーサイトで自由にレイアウト</p>
       </div>
     </div>
   </section>
 
-  <!-- ご利用案内 -->
+  <!-- 設備・施設 -->
+  <section class="section">
+    <h2>設備・施設</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>基本設備</h3>
+        <p>トイレ・炊事場・駐車場</p>
+      </div>
+      <div class="card">
+        <h3>BBQ</h3>
+        <p>バーベキューを楽しめます</p>
+      </div>
+      <div class="card">
+        <h3>その他</h3>
+        <p>展望台あり<br>自然散策路</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 料金案内（仮） -->
+  <section class="section">
+    <h2>料金案内</h2>
+    <p style="text-align:center; margin-bottom:30px;">※料金は変更になる場合があります。最新情報は電話でご確認ください。</p>
+    <div class="grid">
+      <div class="card">
+        <h3>サイト利用料</h3>
+        <p>大人：〇〇円 / 小学生：〇〇円 / 幼児：無料<br>
+        （1泊あたり）</p>
+      </div>
+      <div class="card">
+        <h3>駐車料</h3>
+        <p>1台：〇〇円</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご利用案内・注意事項 -->
   <section class="section">
     <h2>ご利用案内</h2>
     <div class="grid">
       <div class="card">
         <h3>予約方法</h3>
-        <p>電話予約制です</p>
+        <p><strong>完全予約制</strong><br>電話予約をお願いします</p>
+        <a href="tel:090-6156-7424" class="tel">090-6156-7424</a>
       </div>
       <div class="card">
-        <h3>ゴミについて</h3>
-        <p>分別してキャンプ場に置いていってください。<br>管理人が後で回収します。</p>
+        <h3>注意事項</h3>
+        <p>・ゴミは分別してキャンプ場に置いていってください（管理人が回収）<br>
+           ・直火は指定エリアのみ可<br>
+           ・ペットはリード着用でお願いします<br>
+           ・自然を守るキャンプをお願いします</p>
       </div>
     </div>
   </section>
@@ -67,7 +108,9 @@
   <!-- アクセス -->
   <section class="section">
     <h2>アクセス</h2>
-    <p>〒415-0153 静岡県賀茂郡南伊豆町手石1212-1</p>
+    <p><strong>住所</strong><br>
+       〒415-0153 静岡県賀茂郡南伊豆町手石1212-1</p>
+    
     <p><strong>予約・お問い合わせ</strong><br>
        <a href="tel:090-6156-7424" class="tel">090-6156-7424</a>
     </p>
@@ -75,8 +118,8 @@
 
   <footer>
     <p>© 手石キャンプ場 - 南伊豆・弓ヶ浜を望む高台キャンプ場</p>
+    <p style="margin-top:10px; font-size:0.9rem;">Instagram: <a href="https://www.instagram.com/teishicamping/" target="_blank">@teishicamping</a></p>
   </footer>
 
 </body>
 </html>
-<!-- rebuild -->
