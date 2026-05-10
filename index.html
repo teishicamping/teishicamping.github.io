@@ -3,21 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>手石キャンプ場 テスト</title>
-  <style>
-    body { font-family: sans-serif; margin: 20px; }
-    img { max-width: 100%; height: auto; border: 3px solid #2e8b57; }
-  </style>
+  <title>手石キャンプ場 | 南伊豆・弓ヶ浜高台キャンプ場</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>手石キャンプ場 画像テスト</h1>
-  
-  <h2>hero.jpg</h2>
-  <img src="images/hero.jpg" alt="hero">
 
-  <h2>hinode.jpg</h2>
-  <img src="images/hinode.jpg" alt="hinode">
+  <!-- ヒーロー -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>手石キャンプ場</h1>
+      <p class="subtitle">弓ヶ浜を一望する<br>静かな高台のキャンプ場</p>
+      <a href="tel:090-6156-7424" class="btn-reserve">📞 090-6156-7424 で予約する</a>
+    </div>
+  </header>
 
-  <p>写真が表示されたら成功です</p>
+  <!-- キャンプ場について -->
+  <section class="section">
+    <h2>手石キャンプ場について</h2>
+    <p>静岡県南伊豆町・手石にある、弓ヶ浜を一望できる高台のキャンプ場です。<br>
+    山・海・川に囲まれ、波音や鳥のさえずり、満天の星空、朝日を五感で楽しめます。</p>
+  </section>
+
+  <!-- 魅力ポイント -->
+  <section class="section">
+    <h2>ここが魅力</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="hero.jpg" alt="弓ヶ浜絶景">
+        <h3>🌊 弓ヶ浜の絶景</h3>
+        <p>高台から見渡す美しい海と浜辺</p>
+      </div>
+      <div class="card">
+        <img src="hinode.jpg" alt="朝日">
+        <h3>🌅 美しい朝日</h3>
+        <p>高台ならではの素晴らしい日の出</p>
+      </div>
+      <div class="card">
+        <img src="hosi.jpg" alt="星空">
+        <h3>🌟 満天の星空</h3>
+        <p>光害が少なく夜空がとても綺麗</p>
+      </div>
+      <div class="card">
+        <img src="saito.jpg" alt="キャンプサイト">
+        <h3>🏕 自然豊かなサイト</h3>
+        <p>ペット同伴OK・直火可エリアあり</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 料金 -->
+  <section class="section">
+    <h2>ご利用料金</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>ソロキャンプ</h3>
+        <p><strong>1人</strong><br><span class="price">3,500円</span></p>
+      </div>
+      <div class="card">
+        <h3>1サイト（2人まで）</h3>
+        <p><strong>定員2人</strong><br><span class="price">7,000円</span></p>
+      </div>
+      <div class="card">
+        <h3>追加料金</h3>
+        <p><strong>3人目以降</strong><br>1人あたり <strong>1,500円</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご利用案内 -->
+  <section class="section">
+    <h2>ご利用案内</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>ペット</h3>
+        <p>同伴可能です</p>
+      </div>
+      <div class="card">
+        <h3>直火</h3>
+        <p>直火可能なエリアがあります</p>
+      </div>
+      <div class="card">
+        <h3>ゴミ</h3>
+        <p>分別して置いていってください<br>管理人が後で回収します</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section class="section">
+    <h2>アクセス</h2>
+    <p>〒415-0153 静岡県賀茂郡南伊豆町手石1212-1</p>
+    <p><strong>予約・お問い合わせ</strong><br>
+       <a href="tel:090-6156-7424" class="tel">090-6156-7424</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 手石キャンプ場 - 南伊豆・弓ヶ浜を望む高台キャンプ場</p>
+  </footer>
+
 </body>
 </html>
