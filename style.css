@@ -321,3 +321,17 @@ footer {
   }
 
 }
+/* =========================
+   MAP
+========================= */
+
+.map-container {
+  max-width: 1000px;
+  margin: auto;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
